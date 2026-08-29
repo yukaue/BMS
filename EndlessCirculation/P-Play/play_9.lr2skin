@@ -1,0 +1,59 @@
+//,type,title,maker,thumbnail
+#INFORMATION,4,EC:P-Play,Re_ic,LR2files\Theme\EndlessCirculation\P-Play\.png
+//typeは,,,,
+//0 7KEYS,,,,
+//1 5KEYS,,,,
+//2 14KEYS,,,,
+//3 10KEYS,,,,
+//4 9KEYS,,,,
+//5 MUSICSELECT,,,,
+//6 DECIDE,,,,
+//7 RESULT,,,,
+//8 KEYCONFIG,,,,
+//9 SKINSELECT,,,,
+//10 SOUNDSET,,,,
+//11 THEME,,,,
+
+
+//カスタマイズ情報,,,,,,,,
+//op956はOADX+Linkのために使用
+
+//905 カラフル 906 シンプル
+#CUSTOMOPTION,SEQUENCE,905,PM,BM,,,,
+
+#CUSTOMOPTION,BARLINE,950,OFF,ON,,,,
+
+//FULL 940 HALF 941 Quarter942
+#CUSTOMOPTION,LAZER SIZE,940,FULL,HALF,QUARTER,,,
+#CUSTOMOPTION,BackgroundBGA,982,OFF,ON,,,,
+#CUSTOMOPTION,SimpleLane,980,OFF,ON,,,,
+//FULL 940 HALF 941 Quarter942
+#CUSTOMOPTION,LaneBlackLevel,970,OFF,DARK,DARKER,DARKEST,,
+
+#CUSTOMOPTION,CharacterBG,960,all,Left,Right,,,
+//フレーム分岐
+#CUSTOMOPTION,USE BG-FRAME,910,ON,OFF,,,,
+
+//932 背景にBACKBMP使用 933 背景にBACKBMP不使用
+#CUSTOMOPTION,USE STAGE FILE,932,StageFile,BackBMP,OFF,,,,
+
+#CUSTOMOPTION,STAGE FILE ASPECT,920,16:9,4:3,,,,
+
+//画像追加型カスタマイズ
+#CUSTOMFILE,FRAME,.\LR2files\Theme\EndlessCirculation\P-Play\frame\*,EC,
+#CUSTOMFILE,BOMB,.\LR2files\Theme\EndlessCirculation\P-Play\BOMB\*.png,DEFAULT,
+#CUSTOMFILE,LANE COVER,.\LR2files\Theme\EndlessCirculation\P-Play\lanecover\*.png,Light Pop,
+#CUSTOMFILE,LASER,.\LR2files\Theme\EndlessCirculation\P-Play\Laser\*.png,Laser,
+#CUSTOMFILE,BACK GROUND,.\LR2files\Theme\EndlessCirculation\P-Play\BG\*.png,EC2,
+#CUSTOMFILE,CHARACTER BACK GROUND,.\LR2files\Theme\EndlessCirculation\P-Play\CBG\*.png,OFF
+#CUSTOMFILE,CHARACTER 1P,.\LR2files\Theme\EndlessCirculation\P-Play\Character\1P\*.png,OFF
+#CUSTOMFILE,CHARACTER 2P,.\LR2files\Theme\EndlessCirculation\P-Play\Character\2P\*.png,OFF
+
+
+//INFORMATIONとCUSTOMIZEの終了時に入れてください。,,,,,,,,
+//必須ではありませんが、起動が少しばかり高速になります。,,,,,,,,
+#ENDOFHEADER,,,,,,,,
+
+//#CUSTOMOPTIONで設定したoption値は、#includeで参照しているスキンにも有効です,,,
+
+#INCLUDE,.\LR2files\Theme\EndlessCirculation\P-Play\play01.csv,,

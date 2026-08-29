@@ -1,0 +1,75 @@
+//インフォメーション//////////////////////////////////////////////////////////////////////////
+//,type(result:15),title,maker,thumbnail
+#INFORMATION,15,EndlessCirculation-SelfEvolution,Re_ic,LR2files\Theme\LR2\Result\ss_courseresult.png,
+
+
+
+
+
+//カスタムオプション////////////////////////////////////////////////////////////////////////////
+
+//スコアチャートの表示有無 900 表示する 901 表示しない
+CUSTOMOPTION,SCORE CHART,900,OFF,ON,,,,
+
+//リザルト反転 910 プレイスキンの記述に従う 911 強制反転解除 912 強制反転
+#CUSTOMOPTION,RESULT SIDE,910,AUTO,LEFT,RIGHT,,,
+
+//曲タイトル 920 非表示 921 表示
+CUSTOMOPTION,SONG TITLE,920,OFF,ON,,
+
+#CUSTOMOPTION,PLAYSIDE(段位),980,1P,2P,,,,
+
+//カスタムファイル//////////////////////////////////////////////////////////////////////////////////
+
+//クリアBG
+#CUSTOMFILE,CLEAR BG,LR2files\Theme\EndlessCirculation\SE-CourseResult\clear\*.png,clear,
+
+//ミスBG
+#CUSTOMFILE,FAIL BG,LR2files\Theme\EndlessCirculation\SE-CourseResult\failed\*.png,failed,
+
+#CUSTOMFILE,Character,LR2files\Theme\EndlessCirculation\Play\Character\*.png,OFF,
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#ENDOFHEADER,
+
+
+
+
+
+//リザルト反転の設定//////////////////////////////////////////////////////////////////////////////////////
+
+//リザルトサイド強制変更(LEFT)
+#IF,911,
+#DISABLEFLIP,
+#ENDIF,
+	
+//リザルトサイド強制変更(RIGHT)
+#IF,912,
+#FLIPRESULT,
+#ENDIF,
+
+//バトル時はスキンの記述にかかわらずリザルト反転はオフにする
+#IF,11,
+#DISABLEFLIP,
+#ENDIF,
+
+//ゴーストバトル時も同様に
+#IF,623,
+#DISABLEFLIP,
+#ENDIF,
+
+
+
+
+//スキン分岐////////////////////////////////////////////////////////////////////////////////////////////////
+
+#INCLUDE,LR2files\Theme\EndlessCirculation\SE-CourseResult\courseresult_normal.csv,
+
+#IF,293,
+#INCLUDE,LR2files\Theme\EndlessCirculation\SE-CourseResult\dani.csv,
+#ENDIF
+
+
+

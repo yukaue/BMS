@@ -1,0 +1,52 @@
+//,type,title,maker,thumbnail...
+#INFORMATION,2,EndlessCirculation-SystemDive-Double,Re_ic,LR2files\Theme\EndlessCirculation\Play\.png
+//typeは,,,,
+//0 7KEYS,,,,
+//1 5KEYS,,,,
+//2 14KEYS,,,,
+//3 10KEYS,,,,
+//4 9KEYS,,,,
+//5 MUSICSELECT,,,,
+//6 DECIDE,,,,
+//7 RESULT,,,,
+//8 KEYCONFIG,,,,
+//9 SKINSELECT,,,,
+//10 SOUNDSET,,,,
+//11 THEME,,,,
+//12 7KYS BATTLE,,,,
+//13 5KEYS BATTLE,,,
+//14 9KEYS BATTLE,,,
+
+//カスタマイズ情報,,,,,,,,
+
+//980 ジャッジ 981 ON
+#CUSTOMOPTION,DisplayJudge,980,OFF,ON
+#CUSTOMOPTION,Barlines,920,OFF,ON,,,
+
+//970 スコア表示ノーマル 971 EX
+#CUSTOMOPTION,SCORE TYPE,970,NORMAL,EX
+#CUSTOMFILE,BOMB,.\LR2files\Theme\EndlessCirculation\Play\bomb\*.png,DEFAULT
+#CUSTOMFILE,FRAME,.\LR2files\Theme\EndlessCirculation\Play\frame\Dive\DPwide\*.png,Dive
+#CUSTOMFILE,TURN TABLE,.\LR2files\Theme\EndlessCirculation\Play\turntable\N\*.png,DEFAULT
+#CUSTOMFILE,Notes,.\LR2files\Theme\EndlessCirculation\Play\parts\note\*.png,Default
+#CUSTOMFILE,Key Flash,.\LR2files\Theme\EndlessCirculation\Play\parts\keyflash\*.png",#RED
+#CUSTOMFILE,JUDGE LINE,.\LR2files\Theme\EndlessCirculation\Play\parts\judgeline\*.png",#RED
+#CUSTOMFILE,GROW,.\LR2files\Theme\EndlessCirculation\Play\parts\grow\*.png",#DEFAULT
+#CUSTOMFILE,JUDGE,.\LR2files\Theme\EndlessCirculation\Play\parts\Combo\*.png,Default
+#CUSTOMFILE,KeyBeam,.\LR2files\Theme\EndlessCirculation\Play\parts\beam\*.png,Default
+#CUSTOMFILE,LANE COVER,.\LR2files\Theme\EndlessCirculation\Play\lanecover\AC\*.png,DEFAULT
+#CUSTOMFILE,PROGRESS BAR,.\LR2files\Theme\EndlessCirculation\Play\progressbar\*.png,DEFAULT
+#CUSTOMFILE,OBJECT,.\LR2files\Theme\EndlessCirculation\Play\object\AC\*.png,DEFAULT
+#CUSTOMFILE,GROOVE GAUGE,.\LR2files\Theme\EndlessCirculation\Play\gauge\wide\*.png,#default
+#CUSTOMFILE,NUMBER,.\LR2files\Theme\EndlessCirculation\Play\number\*.png,DEFAULT
+#CUSTOMFILE,AUTO SCRATCH,.\LR2files\Theme\EndlessCirculation\Play\disablelane\AC\*.png,NOTE
+#CUSTOMFILE,TITLE TOP,.\LR2files\Theme\EndlessCirculation\Play\emblem\*.png,DEFAULT
+
+
+//#CUSTOMOPTIONで設定したoption値は、#includeで参照しているスキンにも有効です,,,
+
+//スキン分岐,,,
+
+
+#INCLUDE,LR2files\Theme\EndlessCirculation\Play\_csv\SP\DiveDPwide.csv
+

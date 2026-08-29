@@ -1,0 +1,18 @@
+fix 
+16/3/8
+-fix 1p poor number in course result
+
+
+fix
+16/3/6
+
+select
+-fix bottom 'target option' position
+-fix flash on sudden+ button
+-fix effects on/off button
+-add banner on/off
+
+
+
+result
+-displayed 0% to when died in survival gauge

@@ -1,0 +1,6 @@
+﻿LR2files\Theme\courseresult.lr2skin
+LR2files\Theme\WMIX_HD\*.....
+
+
+fast/slow 
+http://pastebin.com/neQxd9Gz

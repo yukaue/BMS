@@ -1,0 +1,38 @@
+fix 
+
+18/9/24 (By Hakula)
+result + play
+-fix Misspelling begginer->beginner
+
+16/3/21
+
+decide
+-fix Misspelling begginer->beginner
+
+16/3/19
+
+play
+- fix dstop. of dp fast/slow 
+- fix right lane measure line of wide-dp 
+
+16/3/12
+
+select
+-fix Misspelling in course make window 
+ cancle->cancel
+
+16/3/8
+
+course result
+-fix 1p poor number in course result
+
+16/3/6
+
+select
+-fix bottom 'target option' position
+-fix flash on sudden+ button
+-fix effects on/off button
+-add banner on/off
+
+result
+-displayed 0% to when died in survival gauge
